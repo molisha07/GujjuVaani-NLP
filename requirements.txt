@@ -1,0 +1,64 @@
+# ============================================================
+#  GUJJUVAANI - requirements.txt
+#  Multilingual Gujarati Culture / Heritage / History / Tourism Assistant
+#  Python 3.11  |  CPU-only  |  100% free & open-source
+# ============================================================
+#
+#  QUICK START (Windows)
+#      python -m venv .venv
+#      .venv\Scripts\activate
+#      pip install -r requirements.txt
+#      streamlit run app.py
+#
+#  Install in 3 stages if you prefer (all optional but recommended):
+#      pip install -r requirements.txt
+#
+
+# ---------- Core app / UI ----------
+streamlit>=1.41,<2.0            # st.audio_input (browser mic) needs >= 1.41
+pandas>=2.0                      # evaluation tables
+numpy>=1.24
+sentencepiece>=0.1.99            # sub-word tokenizer used by translation models
+
+# ---------- Core NLP: multilingual sentence embeddings ----------
+sentence-transformers>=3.0,<7.0
+transformers>=4.40
+torch>=2.2                      # CPU wheel is enough, no GPU required
+
+# ---------- Vector similarity / retrieval ----------
+# faiss-cpu gives a clean FAISS IndexFlatIP index.
+# If it fails to install, src/retrieval.py transparently falls back to
+# exact cosine similarity computed with NumPy (mathematically identical).
+faiss-cpu>=1.7.4
+
+# ---------- Speech-to-Text (Whisper, multilingual: gu / hi / mr / en) ----------
+# faster-whisper is CTranslate2 based -> runs comfortably on CPU.
+# Downloaded models (small ~480 MB) are cached in models/whisper/.
+faster-whisper>=1.0
+
+# ---------- Text-to-Speech ----------
+# Backends tried in order by src/text_to_speech.py:
+#   1. AI4Bharat Indic-TTS  -> pip install indic-tts   (optional, offline, heavy)
+#   2. edge-tts             -> free neural Indian voices (gu-IN / hi-IN / mr-IN)
+#   3. pyttsx3 (Windows SAPI)-> fully offline last resort
+edge-tts>=6.1
+pyttsx3>=2.90                  # Windows SAPI fallback (needs pywin32 on Windows)
+pywin32>=306; sys_platform == "win32"
+
+# ---------- Audio I/O ----------
+soundfile>=0.12                 # WAV read/write for the audio pipeline
+av>=11.0                        # used by faster-whisper to decode browser audio
+
+# ---------- Optional, NOT used by default ----------
+# Translation backend #2 (IndicTrans2) requires `pip install IndicTrans2`.
+# It also needs a free Hugging Face login:  huggingface-cli login
+#   -> pip install IndicTrans2
+#
+# Optional translation backend #4 (clearly isolated fallback, has request limits):
+#   deep-translator>=1.11
+#
+# Optional AI4Bharat Indic-TTS (offline neural TTS, heavy):
+#   pip install indic-tts
+#
+# If you have deep-translator already installed it is detected but never used
+# unless GUJJUVAANI_TRANSLATOR=deep-translator is set.

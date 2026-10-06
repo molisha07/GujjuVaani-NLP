@@ -1,0 +1,214 @@
+{
+  "questions": [
+    {
+      "question": "રાણીની વાવ ક્યાં આવેલી છે અને તેનું નિર્માણ કોણે કરાવ્યું હતું?",
+      "expected_topic": "Rani ki Vav",
+      "expected_category": "Historical Places",
+      "language": "gu"
+    },
+    {
+      "question": "મોઢેરાના સૂર્ય મંદિર વિશે માહિતી આપો.",
+      "expected_topic": "Sun Temple Modhera",
+      "expected_category": "Historical Places",
+      "language": "gu"
+    },
+    {
+      "question": "ગીર રાષ્ટ્રીય ઉદ્યાનમાં કયા પ્રાણીઓ જોવા મળે છે?",
+      "expected_topic": "Gir National Park",
+      "expected_category": "Wildlife",
+      "language": "gu"
+    },
+    {
+      "question": "ગુજરાતમાં નવરાત્રી અને ગરબા કેવી રીતે ઉજવાય છે?",
+      "expected_topic": "Navratri and Garba",
+      "expected_category": "Festivals",
+      "language": "gu"
+    },
+    {
+      "question": "સ્ટેચ્યુ ઓફ યુનિટીની ઊંચાઈ કેટલી છે અને તે ક્યાં આવેલું છે?",
+      "expected_topic": "Statue of Unity",
+      "expected_category": "Tourism",
+      "language": "gu"
+    },
+    {
+      "question": "સાબરમતી આશ્રમનો ઇતિહાસ અને ગાંધીજી સાથેનો સંબંધ જણાવો.",
+      "expected_topic": "Sabarmati Ashram",
+      "expected_category": "Historical Places",
+      "language": "gu"
+    },
+    {
+      "question": "પાટણના પટોળા શા માટે વિશ્વપ્રસિદ્ધ છે?",
+      "expected_topic": "Patan Patola",
+      "expected_category": "Handicrafts",
+      "language": "gu"
+    },
+    {
+      "question": "ઊંધિયું કેવી રીતે બનાવવામાં આવે છે?",
+      "expected_topic": "Undhiyu",
+      "expected_category": "Gujarati Cuisine",
+      "language": "gu"
+    },
+    {
+      "question": "નરસિંહ મહેતાનું પ્રિય ભજન કયું છે?",
+      "expected_topic": "Narsinh Mehta",
+      "expected_category": "Historical Personalities",
+      "language": "gu"
+    },
+    {
+      "question": "ધોળાવીરા હડપ્પન સંસ્કૃતિનું નગર ક્યાં આવેલું છે?",
+      "expected_topic": "Dholavira",
+      "expected_category": "Historical Places",
+      "language": "gu"
+    },
+    {
+      "question": "Tell me about Rani ki Vav and its UNESCO World Heritage status.",
+      "expected_topic": "Rani ki Vav",
+      "expected_category": "Historical Places",
+      "language": "en"
+    },
+    {
+      "question": "Where can I see Asiatic lions in Gujarat?",
+      "expected_topic": "Gir National Park",
+      "expected_category": "Wildlife",
+      "language": "en"
+    },
+    {
+      "question": "What is the history of the Sun Temple in Modhera?",
+      "expected_topic": "Sun Temple Modhera",
+      "expected_category": "Historical Places",
+      "language": "en"
+    },
+    {
+      "question": "What is Champaner-Pavagadh Archaeological Park famous for?",
+      "expected_topic": "Champaner-Pavagadh Archaeological Park",
+      "expected_category": "Historical Places",
+      "language": "en"
+    },
+    {
+      "question": "What are famous traditional Gujarati foods in a thali?",
+      "expected_topic": "Gujarati Thali",
+      "expected_category": "Gujarati Cuisine",
+      "language": "en"
+    },
+    {
+      "question": "Where is the White Desert of Kutch located?",
+      "expected_topic": "Great Rann of Kutch",
+      "expected_category": "Tourism",
+      "language": "en"
+    },
+    {
+      "question": "Explain the history of Dandi March led by Mahatma Gandhi.",
+      "expected_topic": "Dandi March",
+      "expected_category": "Historical Events",
+      "language": "en"
+    },
+    {
+      "question": "रानी की वाव के बारे में बताएं और इसका निर्माण किसने कराया था?",
+      "expected_topic": "Rani ki Vav",
+      "expected_category": "Historical Places",
+      "language": "hi"
+    },
+    {
+      "question": "गुजरात में एशियाई शेर कहाँ पाए जाते हैं?",
+      "expected_topic": "Gir National Park",
+      "expected_category": "Wildlife",
+      "language": "hi"
+    },
+    {
+      "question": "सोमनाथ ज्योतिर्लिंग मंदिर का इतिहास क्या है?",
+      "expected_topic": "Somnath Temple",
+      "expected_category": "Religious Places",
+      "language": "hi"
+    },
+    {
+      "question": "स्टैच्यू ऑफ यूनिटी किस महापुरुष को समर्पित है?",
+      "expected_topic": "Statue of Unity",
+      "expected_category": "Tourism",
+      "language": "hi"
+    },
+    {
+      "question": "सरदार वल्लभभाई पटेल का भारत के एकीकरण में क्या योगदान था?",
+      "expected_topic": "Sardar Vallabhbhai Patel",
+      "expected_category": "Historical Personalities",
+      "language": "hi"
+    },
+    {
+      "question": "कच्छ के रण उत्सव और सफेद रेगिस्तान के बारे में जानकारी दें।",
+      "expected_topic": "Great Rann of Kutch",
+      "expected_category": "Tourism",
+      "language": "hi"
+    },
+    {
+      "question": "राणी की वाव बद्दल माहिती द्या आणि तिचे ऐतिहासिक महत्त्व काय आहे?",
+      "expected_topic": "Rani ki Vav",
+      "expected_category": "Historical Places",
+      "language": "mr"
+    },
+    {
+      "question": "गुजरातमध्ये आशियाई सिंह कोणत्या राष्ट्रीय उद्यानात आढळतात?",
+      "expected_topic": "Gir National Park",
+      "expected_category": "Wildlife",
+      "language": "mr"
+    },
+    {
+      "question": "सोमनाथ मंदिराचा इतिहास आणि प्रथम ज्योतिर्लिंगाविषयी सांगा.",
+      "expected_topic": "Somnath Temple",
+      "expected_category": "Religious Places",
+      "language": "mr"
+    },
+    {
+      "question": "द्वारकाधीश जगत मंदिर आणि चार धाम यात्रेविषयी माहिती द्या.",
+      "expected_topic": "Dwarkadhish Temple",
+      "expected_category": "Religious Places",
+      "language": "mr"
+    },
+    {
+      "question": "स्टॅच्यू ऑफ युनिटी कुठे आहे आणि त्याची उंची किती आहे?",
+      "expected_topic": "Statue of Unity",
+      "expected_category": "Tourism",
+      "language": "mr"
+    },
+    {
+      "question": "Rani ki Vav vishe janavo ane tenu nirman kone karavyu hatu?",
+      "expected_topic": "Rani ki Vav",
+      "expected_category": "Historical Places",
+      "language": "roman_gu"
+    },
+    {
+      "question": "Navratri Gujarat ma kem ane kevi rite ujvay chhe?",
+      "expected_topic": "Navratri and Garba",
+      "expected_category": "Festivals",
+      "language": "roman_gu"
+    },
+    {
+      "question": "Statue of Unity kahan aavelu chhe ane ketli unchi chhe?",
+      "expected_topic": "Statue of Unity",
+      "expected_category": "Tourism",
+      "language": "roman_gu"
+    },
+    {
+      "question": "Modhera na Surya Mandir no itihas shu chhe?",
+      "expected_topic": "Sun Temple Modhera",
+      "expected_category": "Historical Places",
+      "language": "roman_gu"
+    },
+    {
+      "question": "Gir jungle ma Asiatic lion kya jova male chhe?",
+      "expected_topic": "Gir National Park",
+      "expected_category": "Wildlife",
+      "language": "roman_gu"
+    },
+    {
+      "question": "Sabarmati Ashram ane Mahatma Gandhi vishe janavo.",
+      "expected_topic": "Sabarmati Ashram",
+      "expected_category": "Historical Places",
+      "language": "roman_gu"
+    },
+    {
+      "question": "Patan na Patola kem famous chhe?",
+      "expected_topic": "Patan Patola",
+      "expected_category": "Handicrafts",
+      "language": "roman_gu"
+    }
+  ]
+}

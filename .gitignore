@@ -1,0 +1,54 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- Model caches (large!) ----------
+models/
+!models/.gitkeep
+.cache/
+huggingface/
+hub/
+*.safetensors
+*.bin
+*.onnx
+*.pt
+*.ckpt
+
+# ---------- Generated / runtime artefacts ----------
+data/index/
+*.npy
+*.faiss
+*.pkl
+audio_cache/
+tts_cache/
+stt_cache/
+transcript_cache/
+
+# ---------- Streamlit ----------
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ---------- Editors / OS ----------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Logs ----------
+*.log
+logs/
